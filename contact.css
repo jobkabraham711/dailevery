@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(backgrounds/person-shopping-with-face-mask.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+.header{
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    display:grid;
+    grid-template-columns: 1fr 1.2fr;
+   
+}
+.header img{
+    margin-top: 18px;
+    height:50px;
+    float: right;
+    padding-right: 50px;
+   
+}
+h1{
+    color:rgb(225, 4, 4);
+    padding-top: 20px;
+    margin-left: 30px;
+}
+.body{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0px;
+    height: 500px;
+    
+}
+.contents img{
+    height: 100px;
+}
+.contents p{
+    color:rgb(237, 254, 0);
+    font-size: larger;
+}
+.footer{
+    height: 50px;
+  
+} 
+.footer ,p{
+    font-size: large;
+    padding: 23px;
+    margin: 0px;
+    text-align: center;
+} 
+ 
